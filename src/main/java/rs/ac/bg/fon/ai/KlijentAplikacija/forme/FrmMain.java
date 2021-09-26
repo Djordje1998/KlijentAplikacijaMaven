@@ -57,7 +57,7 @@ public class FrmMain extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Glavni Meni");
 
-        lblLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/res/Logo.png"))); // NOI18N
+        //lblLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("rs/ac/bg/fon/ai/KlijentAplikacija/res/Logo.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
