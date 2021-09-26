@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kontroler;
+package rs.ac.bg.fon.ai.KlijentAplikacija.kontroler;
 
-import domen.Korisnik;
-import forme.FrmMain;
-import forme.util.ParamConstants;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Korisnik;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.FrmMain;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.util.ParamConstants;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import javax.swing.JOptionPane;
-import kont.Komunikacija;
-import kordinator.MainCordinator;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kont.Komunikacija;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kordinator.MainCordinator;
 
 /**
  *

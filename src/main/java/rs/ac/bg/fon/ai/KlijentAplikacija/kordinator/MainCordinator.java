@@ -3,29 +3,29 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kordinator;
+package rs.ac.bg.fon.ai.KlijentAplikacija.kordinator;
 
-import forme.FrmMain;
-import forme.FrmPretrazivanje;
-import forme.komponente.FrmKomponenta;
-import forme.komponente.FrmKomponentaOcenjivanje;
-import forme.login.FrmLogin;
-import forme.login.FrmLoginConfiguration;
-import forme.racunar.FrmRacunar;
-import forme.uporedjivanje.FrmUporedjivanjeKomponenti;
-import forme.uporedjivanje.FrmUporedjivanjeRacunara;
-import forme.util.FrmModOtvaranja;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.FrmMain;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.FrmPretrazivanje;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.komponente.FrmKomponenta;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.komponente.FrmKomponentaOcenjivanje;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.login.FrmLogin;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.login.FrmLoginConfiguration;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.racunar.FrmRacunar;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.uporedjivanje.FrmUporedjivanjeKomponenti;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.uporedjivanje.FrmUporedjivanjeRacunara;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.util.FrmModOtvaranja;
 import java.util.HashMap;
 import java.util.Map;
-import kontroler.KomponentaController;
-import kontroler.KomponentaOcenjivanjeController;
-import kontroler.PretrazivanjeController;
-import kontroler.LoginConfigurationController;
-import kontroler.LoginController;
-import kontroler.MainController;
-import kontroler.RacunarController;
-import kontroler.UporedjivanjeKomponentiController;
-import kontroler.UporedjivanjeRacunaraController;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kontroler.KomponentaController;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kontroler.KomponentaOcenjivanjeController;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kontroler.PretrazivanjeController;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kontroler.LoginConfigurationController;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kontroler.LoginController;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kontroler.MainController;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kontroler.RacunarController;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kontroler.UporedjivanjeKomponentiController;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kontroler.UporedjivanjeRacunaraController;
 
 /**
  *

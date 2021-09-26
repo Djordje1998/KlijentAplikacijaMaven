@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package forme.login;
+package rs.ac.bg.fon.ai.KlijentAplikacija.forme.login;
 
 import javax.swing.JButton;
 import javax.swing.JTextField;

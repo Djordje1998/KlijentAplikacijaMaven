@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model;
+package rs.ac.bg.fon.ai.KlijentAplikacija.model;
 
-import domen.Komponenta;
-import domen.Korisnik;
-import domen.Racunar;
-import domen.StavkaRacunara;
-import forme.util.ParamConstants;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Komponenta;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Korisnik;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Racunar;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.StavkaRacunara;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.util.ParamConstants;
 import java.util.Date;
 import javax.swing.table.AbstractTableModel;
-import kordinator.MainCordinator;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kordinator.MainCordinator;
 
 /**
  *

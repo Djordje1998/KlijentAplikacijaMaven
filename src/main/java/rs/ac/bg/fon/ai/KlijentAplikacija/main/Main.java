@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package main;
+package rs.ac.bg.fon.ai.KlijentAplikacija.main;
 
-import kordinator.MainCordinator;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kordinator.MainCordinator;
 
 
 

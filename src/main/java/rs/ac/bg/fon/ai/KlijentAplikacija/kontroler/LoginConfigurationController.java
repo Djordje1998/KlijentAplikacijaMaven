@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kontroler;
+package rs.ac.bg.fon.ai.KlijentAplikacija.kontroler;
 
-import forme.login.FrmLoginConfiguration;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.login.FrmLoginConfiguration;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
-import util.PropertyConst;
-import util.PropertyRead;
-import util.PropertyWrite;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.util.PropertyConst;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.util.PropertyRead;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.util.PropertyWrite;
 
 /**
  *

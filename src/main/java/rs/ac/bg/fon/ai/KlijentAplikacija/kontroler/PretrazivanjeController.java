@@ -3,23 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kontroler;
+package rs.ac.bg.fon.ai.KlijentAplikacija.kontroler;
 
-import domen.Komponenta;
-import domen.Racunar;
-import forme.FrmPretrazivanje;
-import forme.util.FrmModOtvaranja;
-import forme.util.ParamConstants;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Komponenta;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Racunar;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.FrmPretrazivanje;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.util.FrmModOtvaranja;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.util.ParamConstants;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
-import kont.Komunikacija;
-import kordinator.MainCordinator;
-import model.TabelModelKomponente;
-import model.TabelModelRacunari;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kont.Komunikacija;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kordinator.MainCordinator;
+import rs.ac.bg.fon.ai.KlijentAplikacija.model.TabelModelKomponente;
+import rs.ac.bg.fon.ai.KlijentAplikacija.model.TabelModelRacunari;
 
 /**
  *
@@ -188,7 +188,7 @@ public class PretrazivanjeController {
                     ArrayList<Komponenta> komponente = Komunikacija.getInstance().pretragaKomponenti(naziv);
                     tmk.setKomponente(komponente);
                 } catch (Exception ex) {
-                    tmk.setKomponente(new ArrayList<>());
+                    tmk.setKomponente(new ArrayList<Komponenta>());
                 }
                 break;
             case RACUNAR_PRETRAZIVANJE:
@@ -198,7 +198,7 @@ public class PretrazivanjeController {
                     ArrayList<Racunar> racunari = Komunikacija.getInstance().pretragaRacunara(naziv);
                     tmr.setRacunari(racunari);
                 } catch (Exception ex) {
-                    tmr.setRacunari(new ArrayList<>());
+                    tmr.setRacunari(new ArrayList<Racunar>());
                 }
                 break;
         }

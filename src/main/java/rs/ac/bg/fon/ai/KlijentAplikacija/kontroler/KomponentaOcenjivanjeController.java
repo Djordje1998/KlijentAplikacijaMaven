@@ -3,20 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kontroler;
+package rs.ac.bg.fon.ai.KlijentAplikacija.kontroler;
 
-import domen.Komponenta;
-import domen.Ocena;
-import domen.StressTest;
-import forme.komponente.FrmKomponentaOcenjivanje;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Komponenta;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Ocena;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.StressTest;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.komponente.FrmKomponentaOcenjivanje;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
-import kont.Komunikacija;
-import kordinator.MainCordinator;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kont.Komunikacija;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kordinator.MainCordinator;
 
 /**
  *

@@ -3,27 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kont;
+package rs.ac.bg.fon.ai.KlijentAplikacija.kont;
 
-import communication.Operation;
-import domen.Benchmark;
-import domen.Komponenta;
-import domen.Korisnik;
-import domen.Ocena;
-import domen.Racunar;
-import domen.StressTest;
-import domen.TipKomponente;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.communication.Operation;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Benchmark;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Komponenta;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Korisnik;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Ocena;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Racunar;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.StressTest;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.TipKomponente;
 import java.io.IOException;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import communication.Receiver;
-import communication.Sender;
-import communication.object.Request;
-import communication.object.Response;
-import util.PropertyConst;
-import util.PropertyRead;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.communication.Receiver;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.communication.Sender;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.communication.object.Request;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.communication.object.Response;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.util.PropertyConst;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.util.PropertyRead;
 
 /**
  *

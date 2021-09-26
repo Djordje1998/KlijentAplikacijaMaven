@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kontroler;
+package rs.ac.bg.fon.ai.KlijentAplikacija.kontroler;
 
-import domen.Komponenta;
-import domen.TipKomponente;
-import forme.komponente.FrmKomponenta;
-import forme.util.FrmModOtvaranja;
-import forme.util.ParamConstants;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.Komponenta;
+import rs.ac.bg.fon.ai.BibliotekaAplikacija.domen.TipKomponente;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.komponente.FrmKomponenta;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.util.FrmModOtvaranja;
+import rs.ac.bg.fon.ai.KlijentAplikacija.forme.util.ParamConstants;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
-import kont.Komunikacija;
-import kordinator.MainCordinator;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kont.Komunikacija;
+import rs.ac.bg.fon.ai.KlijentAplikacija.kordinator.MainCordinator;
 
 /**
  *
