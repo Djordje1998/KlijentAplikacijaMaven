@@ -33,9 +33,7 @@ public class LoginConfigurationController {
     }
 
     private void pripremiFormu() {
-        PropertyRead read = new PropertyRead();
-        frmLoginConfiguration.getTxtAdresa().setText(read.getString(PropertyConst.ADRESA));
-        frmLoginConfiguration.getTxtPort().setText(read.getString(PropertyConst.PORT));
+
     }
 
     private void addActionListeners() {
@@ -52,10 +50,7 @@ public class LoginConfigurationController {
                     JOptionPane.showMessageDialog(frmLoginConfiguration, "Moraju sva polja biti popunjena", "Greska pri cuvanju podesavanja", JOptionPane.ERROR_MESSAGE);
                     return;
                 }
-                PropertyWrite write = new PropertyWrite();
-                write.setValues(PropertyConst.ADRESA, adresa);
-                write.setValues(PropertyConst.PORT, port);
-                write.writeProperty();
+
                 JOptionPane.showMessageDialog(frmLoginConfiguration, "Uspesno sacuvana podesavanja", "Uspesno sacuvano", JOptionPane.INFORMATION_MESSAGE);
                 frmLoginConfiguration.dispose();
             }
